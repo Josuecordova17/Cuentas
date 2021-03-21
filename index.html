@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stye.css">
+    <title>Cuentas</title>
+</head>
+<body>
+    <center>
+        <h1>Tu estado de cuenta</h1>
+        <h2 id="mano"></h2>
+        <h2 id="deuda"></h2>
+        <input type="text" placeholder="Cuanto desea agregar" id="agregar" value="">
+        <input type="button" value="Agregar" onclick="agregar()">
+        <input type="text" placeholder="Cuanto te deben" id="d">
+        <input type="button" value="Agregar" onclick="deuda()">
+        <input type="text" placeholder="Gasto" id="gasto">
+        <input type="button" value="Agregar" onclick="gasto()">
+        <input type="text" placeholder="Pago" id="pago">
+        <input type="button" value="Agregar" onclick="pagado()">
+        <div id="m"></div>
+        <input type="button" value="Desglose" onclick="window.location='h.html'">
+    </center>
+    <div class="error" id="error" style="opacity: 100%;">
+       a 
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
